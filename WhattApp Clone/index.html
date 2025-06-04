@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .phone{
+            width: 350px;
+            height: 590px;
+            border: 2px solid violet;
+            border-radius: 20px;
+            
+        }
+        .time{
+            font-size: 17px;
+            font-weight: 700;
+            margin-left: 12px;
+        }
+       
+        .avove{
+              height: 30px;
+              /* border: 1px solid black; */
+              font-weight: 500;
+              display: flex;
+              
+        }
+
+     
+        .up{
+            width: 350;
+            height: 60px;
+            /* border: 1px solid black; */
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: -35px;
+            
+        }
+        .middle{
+            width: 350px;
+            height: 450px;
+            /* border: 1px solid black; */
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+        .scanner{
+            width: 50px;
+            height: 40px;
+            margin-top: 27px;
+            margin-left: 100px;
+        }
+        .camera{
+            width: 25px;
+            height: 25px;
+              margin-top:35px;
+        }
+        .doted{
+            width: 40px;
+            height: 40px;
+              margin-top: 27px;
+        }
+        .Whatsapp{
+            font-size:x-large;
+            margin-top: 28px;
+            margin-left: 10px;
+            color: green;
+            font-size: 27px;
+        }.tower{
+            width: 90px;
+            margin-left: 212px;
+        }
+        .search{
+            width: 330px;
+            height: 37px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-top: 20px;
+            border: 2px solid blue;
+            
+        }
+        .navbar{
+             width: 350px;
+             height: 40px;
+             /* border: 1px solid black; */
+             display: flex;
+             /* margin-top: 5px; */
+             margin-top: -18px;
+        }
+        .all{
+            width: 50px;
+            height: 20px;
+            border: 1px solid black;
+            margin-top: 7px;
+            margin-left: 7px;
+            border-radius: 10px;
+            background-color: rgb(132, 199, 132);
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 2px solid blueviolet;
+        }
+        .unread:hover{
+            background-color: rgb(132,199,132);
+        }
+        .favourites:hover{
+            background-color: rgb(132,199,132);
+        }
+        .groups:hover{
+            background-color: rgb(132,199,132);
+        }
+        .plus:hover{
+            background-color: rgb(132,199,132);
+        }
+         .unread{
+            width: 70px;
+            height: 20px;
+            border: 1px solid black;
+            margin-top: 7px;
+            margin-left: 7px;
+            border-radius: 10px;
+            text-align: center;
+             
+        }
+         .favourites{
+            width: 80px;
+            height: 20px;
+            border: 1px solid black;
+            margin-top: 7px;
+            margin-left: 7px;
+            border-radius: 10px;
+           
+             text-align: center;
+        }
+         .groups{
+            width: 65px;
+            height: 20px;
+            border: 1px solid black;
+            margin-top: 7px;
+            margin-left: 7px;
+            border-radius: 10px;
+            text-align: center;
+        }
+         .plus{
+            width: 40px;
+            height: 20px;
+            border: 1px solid black;
+            margin-top: 7px;
+            margin-left: 7px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            font-size: larger;
+        }
+        .ovi{
+            width: 25px;
+            position: relative;
+            top: -30px;
+            left: 20px;
+            background-color: aqua;
+        }
+        .archived{
+            width: 50px;
+            display: flex;
+           
+        }
+         .archived1{
+            width: 50px;
+            margin-top: 3px;
+            font-size: medium;
+            font-weight: 600;
+            
+        }
+        .main{
+         display: flex;
+         flex-wrap: wrap;
+        }
+        .profile{
+              width: 40px;
+              height: 40px;
+              border: 1px solid black;
+              margin-top: 2px;
+              margin: 2px;
+        }
+        .text{
+               width: 290px;
+               height: 40px;
+               /* border: 1px solid black; */
+               margin-top: 2px;
+               font-size: large;
+               font-weight: 600;
+               margin-left: 10px;
+        }
+        .pritam{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+        .pritam:hover{
+            img
+        }
+        .debkumar{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+        .profile{
+            border-radius: 50px;
+        }
+          .laltu{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+        .ma{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+         .baba{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .flipkard{
+            width: 40px;
+            height: 40px;
+            border-radius: 500px;
+        }
+        .Sumanta{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+         .ghosh{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .shirshak{
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+        }
+        .five{
+            border: 3px solid white ;
+        }
+        .nav2{
+            display: flex;
+        }
+        .chat{
+            width: 120px;
+            height: 60px;
+        }
+         .update{
+            width: 70px;
+            height: 50px;
+            margin-left: -20px;
+        }
+         .communities{
+            width: 80px;
+            height: 60px;
+        }
+         .call{
+            width: 80px;
+            height: 50px;
+            margin-top: 12px;
+            
+        }
+        .last{
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+            height: 20px;
+            /* border: 1px solid black; */
+            margin: -10px;
+        }
+        .lekha{
+            width: 60px;
+            height: 20px;
+            /* border: 1px solid black; */
+            margin-left:20px ;
+        }
+        .chat1{
+            font-weight: 900;
+            margin-top: -10px;
+            margin-left: 40px;
+            font-size: small;
+
+        }
+         .update1{
+            font-weight: 900;
+            margin-top: -10px;
+            margin-left: 14px;
+            font-size: small;
+
+        }
+         .communities1{
+            font-weight: 900;
+            margin-top: -10px;
+            margin-left: 10px;
+            font-size: small;
+
+        }
+         .call1{
+            font-weight: 900;
+            margin-top: -17px;
+            margin-left: 100px;
+            font-size: small;
+
+        }
+        .pen{
+            font-size: 15px;
+            color: rgb(21, 21, 21);
+            font-weight: 400;
+            margin-left: 2px;
+        }
+        .notch{
+            width: 80px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top:-550px;
+            margin-left: -100px;
+            background-color: black;
+        }
+     
+      
+      
+      
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <div class="avove"> 
+            <div class="time">7:20</div>
+        <!-- <div class="notch"></div> -->
+            <img src="WhatsApp Image 2025-05-28 at 07.15.07.jpeg" alt="" class="tower">
+        </div>
+        <div class="up">
+            <div class="Whatsapp">WhatsApp</div>
+            <img src="WhatsApp Image 2025-05-28 at 06.49.34.jpeg" alt="" class="scanner">
+            <img src="WhatsApp Image 2025-05-28 at 06.49.34 (1).jpeg" alt="" class="camera">
+            <img src="WhatsApp Image 2025-05-28 at 06.49.33 (1).jpeg" alt="" class="doted">
+        </div>
+        <div class="middle">
+            <input type="search" class="search" placeholder="          Ask Meta AI or search" >
+            <img src="Screenshot 2025-05-28 074035.png" alt="" class="ovi">
+            <div class="navbar">
+         <div class="all">All</div>
+         <div class="unread">Unread</div>
+         <div class="favourites">Favourites</div>
+         <div class="groups">Groups</div>
+         <div class="plus">+</div>
+            </div>
+            <div class="archived">
+                <img src="WhatsApp Image 2025-05-28 at 06.49.33.jpeg"  class="archived">
+                <div class="archived1">Archived</div>
+            </div>
+            <div class="main">
+            <div class="profile profile1">
+              <a href="Halfcircle.html"><img src="WhatsApp Image 2025-05-28 at 08.30.48.jpeg" alt="" class="pritam"></a>
+            </div>
+            <div class="text">+917363944497(You)  
+                <div class="pen">Who are you.......</div>
+            </div>
+            <div class="profile">
+                <img src="WhatsApp Image 2025-05-28 at 09.42.13.jpeg" alt="" class="Sumanta">
+            </div>
+            <div class="text">Sumanta Mess
+                <div class="pen">Hm</div>
+            </div>
+            <div class="profile">
+                <img src="WhatsApp Image 2025-05-28 at 09.43.08.jpeg" alt="" class="ma">
+            </div>
+            <div class="text">Ma
+                <div class="pen">Thik ache</div>
+            </div>
+            <div class="profile">
+                <img src="Screenshot 2025-05-28 145547.png" alt="" class="baba">
+            </div>
+            <div class="text">Baba
+                <div class="pen">Hm</div>
+            </div>
+            <div class="profile five">
+                <img src="WhatsApp Image 2025-05-28 at 09.42.38.jpeg" alt="" class="flipkard">
+            </div>
+            <div class="text">Flipkard Support
+                <div class="pen">Thank you for your response.The courier...</div>
+            </div>
+            <div class="profile">
+                                <img src="WhatsApp Image 2025-05-28 at 09.12.47.jpeg" alt="" class="laltu kaka">
+            </div>
+            <div class="text">Laltu Kaka
+                <div class="pen">Accha</div>
+            </div>
+            <div class="profile">
+                <img src="WhatsApp Image 2025-05-28 at 09.44.13.jpeg" alt="" class="ghosh">
+            </div>
+            <div class="text">Ghosh Vai
+                <div class="pen">Ok</div>
+            </div>
+            <div class="profile">
+                <img src="Screenshot 2025-05-28 150554.png" alt="" class="shirshak">
+            </div>
+            <div class="text">Shirshak
+                <div class="pen">Hm</div>
+            </div>
+            <div class="profile">
+                <img src="empty.jpeg" alt="" class="debkumar">
+            </div>
+            <div class="text">Debkumar
+                <div class="pen">Sabash</div>
+            </div>
+            </div>
+        </div>
+        <div class="down">
+          <div class="nav2"> 
+         <img src="WhatsApp Image 2025-05-28 at 06.49.32 (2).jpeg" alt="" class="chat" >
+            
+            <img src="WhatsApp Image 2025-05-28 at 06.49.32 (1).jpeg" alt="" class="update">
+             <img src="WhatsApp Image 2025-05-28 at 06.49.32.jpeg" alt="" class="communities">
+             <img src="WhatsApp Image 2025-05-28 at 06.49.31 (1).jpeg" alt="" class="call">
+             
+             </div>
+        </div>
+        <div class="last">
+             <div class="chat1 lekha">Chats</div>
+             <div class="update1 lekha">Updates</div>
+             <div class="communities1 lekha">Communities<div>
+             <div class="call1 lekha">Calls</div>
+             </div>
+            
+             
+    </div>
+    <div class="notch"></div>
+    
+       
+      
+</body>
+</html>
